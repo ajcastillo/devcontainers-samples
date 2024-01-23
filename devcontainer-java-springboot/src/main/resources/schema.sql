@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS BOOK;
+
+CREATE TABLE BOOK (
+    isbn VARCHAR(14) PRIMARY KEY,
+    title VARCHAR(255),
+    author VARCHAR(255),
+    pages INT
+);
